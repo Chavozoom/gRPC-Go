@@ -18,6 +18,6 @@ services:
     ports:
       - "50051:50051"
     volumes:
-      - .go:/go/src/
+      - .:/go/src/
     extra_hosts:
       - "host.docker.internal:host-gateway"
