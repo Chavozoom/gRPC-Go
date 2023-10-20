@@ -1,6 +1,6 @@
 FROM golang:1.19
 
-WORKDIR /app
+WORKDIR /go
 COPY . .
 
 ENV PATH="/go/bin:${PATH}"
