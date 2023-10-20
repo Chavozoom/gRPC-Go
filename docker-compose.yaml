@@ -6,7 +6,6 @@ services:
     container_name: nest
     ports:
       - 3000:3000
-      - 3001:3001
     volumes:
       - ./nest:/home/node/app
     extra_hosts:
