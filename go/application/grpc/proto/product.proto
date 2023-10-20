@@ -9,7 +9,6 @@ service ProductService {
     rpc FindProducts(FindProductsRequest) returns (FindProductsResponse) {};
 }
 
-
 message CreateProductRequest {
     string name = 1;
     string description = 2;
